@@ -1,0 +1,7 @@
+code	ASCII	description							parameters
+
+0xE5	å		check connection					none
+0x3A	:		receive number of AD conversions 	int number of AD conversions
+0x3F	?		receive configuration byte			char configuration byte
+0x21	!		start conversion block				none
+0x2F	/		stop conversion block				none
